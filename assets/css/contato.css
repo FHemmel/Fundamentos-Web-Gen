@@ -1,0 +1,54 @@
+
+.center {
+    text-align: center;
+}
+
+/*.background{
+    background-color: rgba(218, 214, 214, 0.76);
+}*/
+
+.container{ /* .container é a forma de chamar a classe. */
+
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li{ /* #menu é a forma de chamar o ID.*/
+    display: inline;
+    padding:1.00rem;
+    font-size: 1.50rem;
+    color:coral;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu li a:hover { /* HOVER - para quando passar o mouse em cima ele aparecer outra cor.*/
+    color: lightslategrey;
+}
+
+.marg-lef-50{
+    margin-left: 50px;
+}
+
+.tam-social{
+    width: 3.125rem;
+    height: 3.125rem;
+}
+
+.border-50{ /* chamando classe da imagem para deixar redonda.*/
+    border-radius: 50%;
+}
+
+.tam-social{
+    width: 3.125rem;
+    height: 3.125rem;
+}
+
+.p-30{ /* chamando a classe criada na div para arrumar as bordas.*/ 
+    padding: 1.875rem;
+}
